@@ -1,8 +1,6 @@
 <?php
 include('../ele/doctype.php');
 $mbesi = 'evenementiel';
-$reponse = $bdd->query('SELECT * FROM pages WHERE id_pages="'.$mbesi.'"');
-$donnees = $reponse->fetch();
 ?>
 <title>Agencement salle évènements - Concepteur stand pour événement - Be Sirius</title>
 <meta name="description" content="Que vous ayez besoin de décorer un espace de réception ou d'installer toute une zone de conférence assortie d'un espace presse et d'un buffet cocktail, Be-sirius met à votre service des solutions logistiques et matérielles." />

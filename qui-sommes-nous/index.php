@@ -1,8 +1,6 @@
 <?php
 include('../ele/doctype.php');
 $mbesi = 'quisommes';
-$reponse = $bdd->query('SELECT * FROM pages WHERE id_pages="'.$mbesi.'"');
-$donnees = $reponse->fetch();
 ?>
 <title>Fabricant et concepteur de stands salon professionnel ou évènementiel - Be Sirius</title>
 <meta name="description" content="BE-SIRIUS est spécialisé dans la conception et la réalisation de stand, ainsi que dans l'installation générale de forums, congrès et salons, et dans la gestion logistique de vos événements." />
@@ -39,6 +37,5 @@ $donnees = $reponse->fetch();
 		</div>
 	</div>
 <?php
-$reponse->closeCursor();
 include('../ele/footer.php');
 ?>

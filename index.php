@@ -10,9 +10,9 @@ $mbesi = 'accueil';
 	<div id="acc1">
 		<div class="accimg">
 			<div class="def_droite_gauche">
-				<img src="/img/captacc/stradal_be-sirius_1.jpg" alt="Stand sur mesure Stradal be-sirius" />
-				<img src="/img/captacc/KFC_be-sirius_2.jpg" alt="Stand sur mesure KFC be-sirius" />
-				<img src="/img/captacc/Jordahl_h-bau_be-sirius_3.jpg" alt="Stand sur mesure Jordahl h-bau be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/stradal_be-sirius_1.jpg" alt="Stand sur mesure Stradal be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/KFC_be-sirius_2.jpg" alt="Stand sur mesure KFC be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/Jordahl_h-bau_be-sirius_3.jpg" alt="Stand sur mesure Jordahl h-bau be-sirius" />
 			</div>
 		</div>
 	<p class="acc1titre">Stands sur mesure</p>
@@ -23,9 +23,9 @@ $mbesi = 'accueil';
 		<p class="acc2titre">Stands en location</p>
 		<div class="accimg">
 			<div class="def_haut_bas">
-				<img src="/img/captacc/carrement-fleur_be-sirius_1.jpg" alt="Stand en location carrement-fleur be-sirius" />
-				<img src="/img/captacc/archit_be-sirius_2.jpg" alt="Stand en location archit be-sirius" />
-				<img src="/img/captacc/proximis_be-sirius_3.jpg" alt="Stand en location proximis be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/carrement-fleur_be-sirius_1.jpg" alt="Stand en location carrement-fleur be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/archit_be-sirius_2.jpg" alt="Stand en location archit be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/proximis_be-sirius_3.jpg" alt="Stand en location proximis be-sirius" />
 			</div>
 		</div>
 	</div>
@@ -34,9 +34,9 @@ $mbesi = 'accueil';
 	<div id="acc3">
 		<div class="accimg">
 			<div class="def_gauche_droite">
-				<img src="/img/captacc/installation-stand_be-sirius_3.jpg" alt="Installation générale installation stand be-sirius" />
-				<img src="/img/captacc/vignette-accueil-camy-salon-orientation-2014_be-sirius_2.jpg" alt="Installation générale vignette accueil camy salon orientation 2014 be-sirius" />
-				<img src="/img/captacc/camy-plan-def-vignette-accueil_be-sirius_1.jpg" alt="Installation générale camy plan def vignette accueil be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/installation-stand_be-sirius_3.jpg" alt="Installation générale installation stand be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/vignette-accueil-camy-salon-orientation-2014_be-sirius_2.jpg" alt="Installation générale vignette accueil camy salon orientation 2014 be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/camy-plan-def-vignette-accueil_be-sirius_1.jpg" alt="Installation générale camy plan def vignette accueil be-sirius" />
 			</div>
 		</div>
 	<p class="acc3titre">Installation Générale</p>
@@ -47,9 +47,9 @@ $mbesi = 'accueil';
 		<p class="acc4titre">Evénementiel</p>
 		<div class="accimg">
 			<div class="def_bas_haut">
-				<img src="/img/captacc/fmii_business_immo_espace_conference_be-sirius_3.jpg" alt="Évènement fmii business immo espace conference be-sirius" />
-				<img src="/img/captacc/evenementiel_speed-coaching_be-sirius_2.jpg" alt="Événementiel speed-coaching be-sirius" />
-				<img src="/img/captacc/fmii_business_immo_espace_conference_be-sirius_1.jpg" alt="Événementiel fmii business immo espace conference be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/fmii_business_immo_espace_conference_be-sirius_3.jpg" alt="Évènement fmii business immo espace conference be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/evenementiel_speed-coaching_be-sirius_2.jpg" alt="Événementiel speed-coaching be-sirius" />
+				<img src="<?= RACINE; ?>/img/captacc/fmii_business_immo_espace_conference_be-sirius_1.jpg" alt="Événementiel fmii business immo espace conference be-sirius" />
 			</div>
 		</div>
 	</div>

@@ -1,12 +1,12 @@
 <?php
-include('/homepages/1/d386199518/htdocs/ele/doctype.php');
+include('../ele/doctype.php');
 $mbesi = 'references-realisations';
 $lrefrea = 'stradal';
-include('/homepages/1/d386199518/htdocs/ele/title_refrea.php');
+include('../ele/title_refrea.php');
 ?>
 <meta name="description" content="Concepteur de stand, standiste qui vous accompagne depuis la définition de votre cahier des charges, à la réalisation du stand clés en mains sur le salon." />
 <meta name="keywords" content="agencement de stand professionnel, aménagement de stand professionnel, aménagement de stand salon, concepteur de stand salon, conception de stand clé en main, création stand personnalise, prestataire stand d'exposition, prestataire stand salon, réalisation de stand sur mesure, stand clé en main, stand d'exposition sur mesure, stand salon haut de gamme, stand salon professionnel, stand sur mesure, standiste de salon professionnel" />
-<?php include('/homepages/1/d386199518/htdocs/ele/head_menu.php'); ?>
+<?php include('../ele/head_menu.php'); ?>
 <div id="imgactive">
   <a href="archiwizard.php" title="Archiwizard">
 	<div id="fleche_g">
@@ -32,6 +32,6 @@ include('/homepages/1/d386199518/htdocs/ele/title_refrea.php');
 </p>
 </div>
 <?php
-include('/homepages/1/d386199518/htdocs/references-realisations/lrefrea.php');
-include('/homepages/1/d386199518/htdocs/ele/footer.php');
+include('../references-realisations/lrefrea.php');
+include('../ele/footer.php');
 ?>
