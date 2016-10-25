@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ele/
+Disallow: /beta.php
+Sitemap: http://www.be-sirius.fr/sitemap.xml
