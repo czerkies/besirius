@@ -15,44 +15,44 @@
 		</div>
 	</div>
 	<div id="ban_part">
+		<ul id="menu">
+			<li<?php if (isset($mbesi) && $mbesi == 'accueil') echo ' class="ac"'; ?>>
+			<a href="<?= RACINE; ?>">Accueil</a>
+		</li>
+		<li<?php if (isset($mbesi) && $mbesi == 'quisommes') echo ' class="ac"'; ?>>
+		<a href="<?= RACINE; ?>qui-sommes-nous/">Qui sommes nous ?</a>
+	</li>
+	<li>
+		<a<?php if(isset($mbesi) && $mbesi == 'stands-sur-mesure') echo ' class="ac"'; ?> href="<?= RACINE; ?>stands-sur-mesure/">Stands sur mesure</a>
+		<ul>
+			<li<?php if (isset($smbesi) && $smbesi == 'stands-reutilisables') echo ' class="ac"'; ?>>
+			<a href="<?= RACINE; ?>stands-sur-mesure/stands-reutilisables/">Stands réutilisables</a>
+		</li>
+		<li<?php if (isset($smbesi) && $smbesi == 'stands-one-shot') echo ' class="ac"'; ?>>
+		<a href="<?= RACINE; ?>stands-sur-mesure/stands-one-shot/">Stands one shot</a>
+	</li>
+</ul>
+</li>
+<li>
+	<a<?php if (isset($mbesi) && $mbesi == 'stands-en-location') echo ' class="ac"'; ?> href="<?= RACINE; ?>stands-en-location/">Stands en location</a>
+</li>
+<li>
+	<a<?php if (isset($mbesi) && $mbesi == 'installation-generale') echo ' class="ac"'; ?> href="<?= RACINE; ?>installation-generale/">installation générale</a>
+	<ul>
+		<li<?php if (isset($smbesi) && $smbesi == 'bureau-etude') echo ' class="ac"'; ?>>
+		<a href="<?= RACINE; ?>installation-generale/bureau-etude/">Bureau d'Étude</a>
+	</li>
+	<li<?php if (isset($smbesi) && $smbesi == 'installation') echo ' class="ac"'; ?>>
+	<a href="<?= RACINE; ?>installation-generale/installation/">Installation</a>
+</li>
+</ul>
+</li>
+<li>
+	<a<?php if (isset($mbesi) && $mbesi == 'evenementiel') echo ' class="ac"'; ?> href="<?= RACINE; ?>evenementiel/">Événementiel</a>
+</li>
+<li>
+	<a<?php if (isset($mbesi) && $mbesi == 'contact') echo ' class="ac"'; ?> href="<?= RACINE; ?>contact-devis/">Contact</a>
+</li>
+</ul>
 		<div id="ban_960">
-			<ul id="menu">
-				<li<?php if (isset($mbesi) && $mbesi == 'accueil') echo ' class="ac"'; ?>>
-					<a href="<?= RACINE; ?>">Accueil</a>
-				</li>
-				<li<?php if (isset($mbesi) && $mbesi == 'quisommes') echo ' class="ac"'; ?>>
-					<a href="<?= RACINE; ?>qui-sommes-nous/">Qui sommes nous ?</a>
-				</li>
-				<li>
-					<a<?php if(isset($mbesi) && $mbesi == 'stands-sur-mesure') echo ' class="ac"'; ?> href="<?= RACINE; ?>stands-sur-mesure/">Stands sur mesure</a>
-						<ul>
-							<li<?php if (isset($smbesi) && $smbesi == 'stands-reutilisables') echo ' class="ac"'; ?>>
-								<a href="<?= RACINE; ?>stands-sur-mesure/stands-reutilisables/">Stands réutilisables</a>
-							</li>
-							<li<?php if (isset($smbesi) && $smbesi == 'stands-one-shot') echo ' class="ac"'; ?>>
-								<a href="<?= RACINE; ?>stands-sur-mesure/stands-one-shot/">Stands one shot</a>
-							</li>
-						</ul>
-				</li>
-				<li>
-					<a<?php if (isset($mbesi) && $mbesi == 'stands-en-location') echo ' class="ac"'; ?> href="<?= RACINE; ?>stands-en-location/">Stands en location</a>
-				</li>
-				<li>
-					<a<?php if (isset($mbesi) && $mbesi == 'installation-generale') echo ' class="ac"'; ?> href="<?= RACINE; ?>installation-generale/">installation générale</a>
-					<ul>
-						<li<?php if (isset($smbesi) && $smbesi == 'bureau-etude') echo ' class="ac"'; ?>>
-							<a href="<?= RACINE; ?>installation-generale/bureau-etude/">Bureau d'Étude</a>
-						</li>
-						<li<?php if (isset($smbesi) && $smbesi == 'installation') echo ' class="ac"'; ?>>
-							<a href="<?= RACINE; ?>installation-generale/installation/">Installation</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a<?php if (isset($mbesi) && $mbesi == 'evenementiel') echo ' class="ac"'; ?> href="<?= RACINE; ?>evenementiel/">Événementiel</a>
-				</li>
-				<li>
-					<a<?php if (isset($mbesi) && $mbesi == 'contact') echo ' class="ac"'; ?> href="<?= RACINE; ?>contact-devis/">Contact</a>
-				</li>
-			</ul>
 		<div id="cont">
