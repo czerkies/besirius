@@ -45,11 +45,11 @@ footer {
 	width:960px;
 }
 #head {
-	transform: rotate(-4deg);
+	/*transform: rotate(-4deg);*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
 	height: 180px;
-}
-#logo {
-	float:left;
 }
 footer {
 	width:960px;
@@ -117,10 +117,15 @@ img.size_logo {
 	margin:0 8px 0;
 	width:300px;
 }
-#refetrea {
+#devis {
 	width:425px;
-	margin:140px 0 0;
-	float:right;
+	padding: 20px 0 0;
+	/*margin:140px 0 0;*/
+	/*float:right;*/
+}
+#refetrea,
+#devis {
+	align-self: flex-end;
 }
 #refetrea span,
 #devis span {
@@ -160,36 +165,44 @@ img.size_logo {
 }
 
 #refetrea a:hover .dot1,
-#devis a:hover .dot1 {
-	-webkit-animation:dotback1 .8s ease-in-out infinite;
-	-moz-animation:dotback1 .8s ease-in-out infinite;
-	-ms-animation:dotback1 .8s ease-in-out infinite;
+#devis a .dot1 {
+	animation: dotback1 1s ease-in-out infinite;
 }
 #refetrea a:hover .dot2,
-#devis a:hover .dot2 {
-	-webkit-animation:dotback2 .8s ease-in-out infinite;
-	-moz-animation:dotback2 .8s ease-in-out infinite;
-	-ms-animation:dotback2 .8s ease-in-out infinite;
+#devis a .dot2 {
+	animation: dotback2 1s ease-in-out infinite;
 }
 #refetrea a:hover .dot3,
-#devis a:hover .dot3 {
-	-webkit-animation:dotback3 .8s ease-in-out infinite;
-	-moz-animation:dotback3 .8s ease-in-out infinite;
-	-ms-animation:dotback3 .8s ease-in-out infinite;
+#devis a .dot3 {
+	animation: dotback3 1s ease-in-out infinite;
 }
-@-webkit-keyframes dotback1{0%,40%,100%{background:#d3c3e0;}10%,10%{background:#8373b3;}}
-@-webkit-keyframes dotback2{0%,10%,80%{background:#d3c3e0;}40%,40%{background:#8373b3;}}
-@-webkit-keyframes dotback3{0%,40%,100%{background:#d3c3e0;}80%,80%{background:#8373b3;}}
 
-@-moz-keyframes dotback1{0%,40%,100%{background:#d3c3e0;}10%,10%{background:#8373b3;}}
-@-moz-keyframes dotback2{0%,10%,80%{background:#d3c3e0;}40%,40%{background:#8373b3;}}
-@-moz-keyframes dotback3{0%,40%,100%{background:#d3c3e0;}80%,80%{background:#8373b3;}}
+@keyframes dotback1 {
+	0%, 40%, 100% {
+		background:#d3c3e0;
+	}
+	20% {
+		background:#8373b3;
+	}
+}
+@keyframes dotback2 {
+	0%, 10%, 80% {
+		background:#d3c3e0;
+	}
+	40% {
+		background:#8373b3;
+	}
+}
+@keyframes dotback3 {
+	0%, 40%, 100% {
+		background:#d3c3e0;
+	}
+	80% {
+		background:#8373b3;
+	}
+}
 
-@-ms-keyframes dotback1{0%,40%,100%{background:#d3c3e0;}10%,10%{background:#8373b3;}}
-@-ms-keyframes dotback2{0%,10%,80%{background:#d3c3e0;}40%,40%{background:#8373b3;}}
-@-ms-keyframes dotback3{0%,40%,100%{background:#d3c3e0;}80%,80%{background:#8373b3;}}
-
-#devis {
+#refetrea {
 	width: 960px;
 	margin: auto;
 	display: flex;

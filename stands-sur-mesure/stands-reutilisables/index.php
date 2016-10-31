@@ -32,12 +32,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img1" title="Fermer">
               <label for="img15">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img2" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/ARCHOS - MEDPI.jpg" alt="ARCHOS - MEDPI">
@@ -46,12 +46,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img2" title="Fermer">
               <label for="img1" title="Précédent">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img3" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/CARLES FUNERAIRE - ART FUNERAIRE.jpg" alt="CARLES FUNERAIRE - ART FUNERAIRE">
@@ -60,12 +60,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img3" title="Fermer">
               <label for="img2" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img4" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/ELECTRICOM - MEDPI.jpg" alt="ELECTRICOM - MEDPI">
@@ -74,12 +74,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img4" title="Fermer">
               <label for="img3" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img5" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FASHION POINT - DENIM BY PV.jpg" alt="FASHION POINT - DENIM BY PV">
@@ -88,12 +88,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img5" title="Fermer">
               <label for="img4" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img6" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FEBI BILSTEIN - EQUIP'AUTO 2013 (1).jpg" alt="FEBI BILSTEIN - EQUIP'AUTO 2013 (1)">
@@ -102,12 +102,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img6" title="Fermer">
               <label for="img5" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img7" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FEBI BILSTEIN - EQUIP'AUTO 2013 (2).jpg" alt="FEBI BILSTEIN - EQUIP'AUTO 2013 (2)">
@@ -116,12 +116,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img7" title="Fermer">
               <label for="img6" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img8" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FEBI BILSTEIN - EQUIP'AUTO 2013 (3).jpg" alt="FEBI BILSTEIN - EQUIP'AUTO 2013 (3)">
@@ -130,12 +130,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img8" title="Fermer">
               <label for="img7" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img9" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FRG - SALON NATIONAL DE L'IMMOBILIER.jpg" alt="FRG - SALON NATIONAL DE L'IMMOBILIER">
@@ -144,12 +144,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img9" title="Fermer">
               <label for="img8" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img10" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/KFC - FRANCHISE EXPO.jpg" alt="KFC - FRANCHISE EXPO">
@@ -158,12 +158,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img10" title="Fermer">
               <label for="img9" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img11" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/MAISONS DE MARIANNE - SALON DES MAIRES.jpg" alt="MAISONS DE MARIANNE - SALON DES MAIRES">
@@ -172,12 +172,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img11" title="Fermer">
               <label for="img10" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img12" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/NICOTECH - FRANCHISE 2014.jpg" alt="NICOTECH - FRANCHISE 2014">
@@ -186,12 +186,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img12" title="Fermer">
               <label for="img11" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img13" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/OX GROUP - BATIMAT 2013.jpg" alt="OX GROUP - BATIMAT 2013">
@@ -200,12 +200,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img13" title="Fermer">
               <label for="img12" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img14" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/PREMIER TECH - BATIMAT.jpg" alt="PREMIER TECH - BATIMAT">
@@ -214,12 +214,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img14" title="Fermer">
               <label for="img13" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img15" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/STUDEX - BIJORHCA.jpg" alt="STUDEX - BIJORHCA">
@@ -228,12 +228,12 @@ $smbesi = 'stands-reutilisables';
             <div class="img15" title="Fermer">
               <label for="img14" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="<?= RACINE; ?>references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img1" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="<?= RACINE; ?>references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/STUDEX - PHARMAGORA 2014.jpg" alt="STUDEX - PHARMAGORA 2014">

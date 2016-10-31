@@ -23,12 +23,12 @@ $mbesi = 'stands-en-location';
             <div class="img1" title="Fermer">
               <label for="img7">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img2" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/CARREMENT FLEURS - FRANCHISE 2015.jpg" alt="CARREMENT FLEURS - FRANCHISE 2015">

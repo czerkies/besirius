@@ -1,7 +1,7 @@
 	</div>
-	<div id="devis" <?php if ($mbesi == 'contact') echo ' class="refreadevis"'; ?>>
-		<a href="<?= RACINE; ?>contact-devis/">
-		<div class="dot1"></div><div class="dot2"></div><div class="dot3"></div><span>Demandez nous un devis...</span>
+	<div id="refetrea" <?php if(isset($mbesi) && $mbesi == 'references-realisations') echo ' class="refreadevis"'; ?>>
+		<a href="<?= RACINE; ?>references-realisations/carrement-fleurs.php">
+			<div class="dot1"></div><div class="dot2"></div><div class="dot3"></div><span>Références et réalisations</span>
 		</a>
 	</div>
 </div>
