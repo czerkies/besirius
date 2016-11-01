@@ -10,8 +10,11 @@
 		</div>
 		<div id="devis" <?php if ($mbesi == 'contact') echo ' class="refreadevis"'; ?>>
 			<a href="<?= RACINE; ?>contact-devis/">
-			<div class="dot1"></div><div class="dot2"></div><div class="dot3"></div><span>Demandez nous un devis...</span>
+				<div class="dot1"></div><div class="dot2"></div><div class="dot3"></div><span>Demandez nous un devis...</span>
 			</a>
+			<div class="devis-coor">
+				<span><a href="mailto:contact@be-sirius.fr" title="eMail">contact@be-sirius.fr</a> - <a href="tel:0175920943" title="Téléphone">01 75 92 09 43</a></span>
+			</div>
 		</div>
 	</div>
 	<div id="ban_part">

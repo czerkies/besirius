@@ -8,6 +8,9 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 	// Email prin
 	$emailConfig = 'roman.czerkies@gmail.com';
 
+	// tracking code Cybercite
+	define('TG_PASSAGE_CYBERCITE', FALSE);
+
 	//Connexion PDO
   if($_SERVER['SERVER_NAME'] == 'localhost') {
 
@@ -26,6 +29,9 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 
 	// Email Prin
 	$emailConfig = 's.ienny@be-sirius.fr, d.genete@be-sirius.fr';
+
+	// tracking code Cybercite
+	define('TG_PASSAGE_CYBERCITE', TRUE);
 
 	// Connexion PDO
 

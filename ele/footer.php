@@ -14,7 +14,9 @@ SAS au capital social de 8 000 €
 <!-- À propos du site : be-sirius Version 2.3 - Réalisé et développé par Roman Czerkies : http://romanczerkies.fr  -->
 </footer>
 </div>
-<script id="tg_passage_cybercite" type="text/javascript" src="http://tracking.veille-referencement.com/TAG/TAG_passage.js?idsite=9128"></script>
+<?php if(TG_PASSAGE_CYBERCITE): ?>
+	<script id="tg_passage_cybercite" type="text/javascript" src="http://tracking.veille-referencement.com/TAG/TAG_passage.js?idsite=9128"></script>
+<?php endif; ?>
 <!-- Hotjar Tracking Code for www.be-sirius.fr -->
 <script>
     (function(h,o,t,j,a,r){
