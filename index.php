@@ -6,7 +6,7 @@ $mbesi = 'accueil';
 <meta name="description" content="Be-sirius, créateur de stands , met son expertise de standiste au service de votre organisation pour concevoir un stand sur mesure , à votre image, sur vos prochains salons." />
 <meta name="keywords" content="agencement de stand professionnel, aménagement de stand professionnel, aménagement de stand salon, concepteur de stand salon, conception de stand clé en main, création stand personnalise, prestataire stand d'exposition, prestataire stand salon, réalisation de stand sur mesure, stand clé en main, stand d'exposition sur mesure, stand salon haut de gamme, stand salon professionnel, stand sur mesure, standiste de salon professionnel" />
 <?php include('ele/head_menu.php'); ?>
-<a href="/stands-sur-mesure/">
+<!--<a href="/stands-sur-mesure/">
 	<div id="acc1">
 		<div class="accimg">
 			<div class="def_droite_gauche">
@@ -53,7 +53,41 @@ $mbesi = 'accueil';
 			</div>
 		</div>
 	</div>
-</a>
+</a>-->
+<div class="home-flex">
+	<a href="<?= RACINE; ?>stands-sur-mesure/" id="acc1">
+		<div class="title">
+			<p>Stand clé en main</p>
+		</div>
+		<div class="image">
+			<img src="<?= RACINE; ?>/img/home-img1.jpg" alt=""/>
+		</div>
+	</a>
+	<a href="<?= RACINE; ?>stands-en-location/" id="acc2">
+		<div class="title">
+			<p>Installation générale</p>
+		</div>
+		<div class="image">
+			<img src="" alt="" />
+		</div>
+	</a>
+	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
+		<div class="title">
+			<p>Agencement</p>
+		</div>
+		<div class="image">
+			<img src="" alt="" />
+		</div>
+	</a>
+	<a href="<?= RACINE; ?>evenementiel/" id="acc4">
+		<div class="title">
+			<p>Evénementiel</p>
+		</div>
+		<div class="image">
+			<img src="" alt="" />
+		</div>
+	</a>
+</div>
 <?php include('ele/footer.php'); ?>
 <div id="index">
 <h1>Expert standiste</h1>
