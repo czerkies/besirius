@@ -73,7 +73,7 @@ $mbesi = 'accueil';
 	</a>
 	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
 		<div class="title">
-			<p>Agencement</p>
+			<p> Agencement</p>
 		</div>
 		<div class="image">
 			<img src="" alt="" />
