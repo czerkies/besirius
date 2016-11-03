@@ -5,7 +5,7 @@
 		<div id="logo">
 			<a href="<?= RACINE; ?>">
 				<p>Créateur de stands et Agencement</p>
-				<img class="size_logo" src="<?= RACINE; ?>/logobesirius.png" alt="Be-Sirius : Concepteur de stand, standiste qui vous accompagne depuis la définition de votre cahier des charges, à la réalisation du stand clés en mains sur le salon.">
+				<img class="size_logo" src="<?= RACINE; ?>logobesirius.png" alt="Be-Sirius : Concepteur de stand, standiste qui vous accompagne depuis la définition de votre cahier des charges, à la réalisation du stand clés en mains sur le salon.">
 			</a>
 		</div>
 		<div id="devis" <?php if ($mbesi == 'contact') echo ' class="refreadevis"'; ?>>

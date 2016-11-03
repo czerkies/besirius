@@ -143,14 +143,9 @@ img.size_logo {
 #devis span {
 	margin:0 5px;
 }
-.refreadevis span {
-	color:#000;
-	text-shadow:0 1px 2px #888;
-}
-.refreadevis .dot1,
-.refreadevis .dot2,
-.refreadevis .dot3 {
-	background: #8373b3;
+.refreadevis a span {
+	color: #000;
+	text-shadow: 0 1px 2px #888;
 }
 #refetrea a,
 #devis a {
@@ -494,26 +489,27 @@ input#slide3 {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 }
-.home-flex > a {
+.home-flex a {
 	width: 258px;
 	height: 100%;
 	display: flex;
 	flex-flow: row nowrap;
+	opacity: .9;
+	transition: opacity 250ms ease;
 }
-.home-flex > a .title {
+.home-flex a:hover {
+	opacity: 1;
+}
+.home-flex a .title {
 	position: relative;
 	width: 45px;
 	text-decoration: none;
 	font-size: 2em;
 	letter-spacing: 1px;
 	font-family: 'boh', arial;
-	color: #888;
-	transition: color 250ms ease;
-}
-.home-flex > a:hover .title {
 	color: #444;
 }
-.home-flex > a .title p {
+.home-flex a .title p {
 	width: 400px;
 	position: absolute;
 	margin: 0;
@@ -523,21 +519,19 @@ input#slide3 {
 	transform-origin: 0 100%;
 	transform: rotate(-90deg) translateY(45px);
 }
-.home-flex > a .image {
+.home-flex a .image {
+	z-index: 4;
+	display: flex;
+	justify-content: center;
+	border-radius: 4px;
 	width: 200px;
 	height: 100%;
 	overflow: hidden;
 }
-.home-flex img {
-	border-radius: 4px;
+.home-flex a img {
+	z-index: -5;
 	width: auto;
-	min-width: 100%;
 	height: 100%;
-	filter: grayscale(25%);
-	transition: filter 250ms ease;
-}
-.home-flex > a:hover img {
-	filter: grayscale(0);
 }
 
 #acc1,
@@ -565,51 +559,33 @@ input#slide3 {
 	border-radius:5px;
 }
 #acc1 {
-	-webkit-animation:acc1 1s ease-in;
-	-moz-animation:acc1 2s ease-in;
-	-ms-animation:acc1 1s ease-in;
+	animation:acc1 1s ease-in;
 	-webkit-transform:translateX(0);
 	z-index:1;
 	/*margin:40px 0 0 0;*/
 }
 #acc2 {
-	-webkit-animation:acc2 1s ease-in;
-	-moz-animation:acc2 2s ease-in;
-	-ms-animation:acc2 1s ease-in;
+	animation:acc2 1s ease-in;
 	-webkit-transform:translateX(0);
 	z-index:2;
 	/*margin:200px 0 0 220px;*/
 }
 #acc3 {
-	-webkit-animation:acc3 1s ease-in;
-	-moz-animation:acc3 2s ease-in;
-	-ms-animation:acc3 1s ease-in;
+	animation:acc3 1s ease-in;
 	-webkit-transform:translateX(0);
 	z-index:3;
 	/*margin:40px 0 0 470px;*/
 }
 #acc4 {
-	-webkit-animation:acc4 1s ease-in;
-	-moz-animation:acc4 2s ease-in;
-	-ms-animation:acc4 1s ease-in;
+	animation:acc4 1s ease-in;
 	-webkit-transform:translateX(0);
 	z-index:4;
 	/*margin:200px 0 0 685px;*/
 }
-@-webkit-keyframes acc1{0%{opacity:0;-webkit-transform:scale(.75);}20%{-webkit-transform:scale(1.05);}25%{-webkit-transform:scale(1);opacity:1;}}
-@-webkit-keyframes acc2{0%,25%{opacity:0;-webkit-transform:scale(.75);}45%{-webkit-transform:scale(1.05);}50%{-webkit-transform:scale(1);opacity:1;}}
-@-webkit-keyframes acc3{0%,50%{opacity:0;-webkit-transform:scale(.75);}70%{-webkit-transform:scale(1.05);}75%{-webkit-transform:scale(1);opacity:1;}}
-@-webkit-keyframes acc4{0%,75%{opacity:0;-webkit-transform:scale(.75);}95%{-webkit-transform:scale(1.05);}100%{-webkit-transform:scale(1);opacity:1;}}
-
-@-moz-keyframes acc1{0%{opacity:0;-moz-transform:scale(.75);}20%{-moz-transform:scale(1.05);}25%{-moz-transform:scale(1);opacity:1;}}
-@-moz-keyframes acc2{0%,25%{opacity:0;-moz-transform:scale(.75);}45%{-moz-transform:scale(1.05);}50%{-moz-transform:scale(1);opacity:1;}}
-@-moz-keyframes acc3{0%,50%{opacity:0;-moz-transform:scale(.75);}70%{-moz-transform:scale(1.05);}75%{-moz-transform:scale(1);opacity:1;}}
-@-moz-keyframes acc4{0%,75%{opacity:0;-moz-transform:scale(.75);}95%{-moz-transform:scale(1.05);}100%{-moz-transform:scale(1);opacity:1;}}
-
-@-ms-keyframes acc1{0%{opacity:0;-ms-transform:scale(.75);}20%{-ms-transform:scale(1.05);}25%{-ms-transform:scale(1);opacity:1;}}
-@-ms-keyframes acc2{0%,25%{opacity:0;-ms-transform:scale(.75);}45%{-ms-transform:scale(1.05);}50%{-ms-transform:scale(1);opacity:1;}}
-@-ms-keyframes acc3{0%,50%{opacity:0;-ms-transform:scale(.75);}70%{-ms-transform:scale(1.05);}75%{-ms-transform:scale(1);opacity:1;}}
-@-ms-keyframes acc4{0%,75%{opacity:0;-ms-transform:scale(.75);}95%{-ms-transform:scale(1.05);}100%{-ms-transform:scale(1);opacity:1;}}
+@keyframes acc1{0%{opacity:0;transform:scale(.75);}20%{transform:scale(1.05);}25%{transform:scale(1);opacity:.9;}}
+@keyframes acc2{0%,25%{opacity:0;transform:scale(.75);}45%{transform:scale(1.05);}50%{transform:scale(1);opacity:.9;}}
+@keyframes acc3{0%,50%{opacity:0;transform:scale(.75);}70%{transform:scale(1.05);}75%{transform:scale(1);opacity:.9;}}
+@keyframes acc4{0%,75%{opacity:0;transform:scale(.75);}95%{transform:scale(1.05);}100%{transform:scale(1);opacity:.9;}}
 
 #acc1:hover .accimg,
 #acc2:hover .accimg,

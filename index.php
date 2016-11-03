@@ -60,7 +60,7 @@ $mbesi = 'accueil';
 			<p>Stand clé en main</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>/img/home-img1.jpg" alt=""/>
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt=""/>
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>stands-en-location/" id="acc2">
@@ -68,7 +68,7 @@ $mbesi = 'accueil';
 			<p>Installation générale</p>
 		</div>
 		<div class="image">
-			<img src="" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="" />
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
@@ -76,7 +76,7 @@ $mbesi = 'accueil';
 			<p> Agencement</p>
 		</div>
 		<div class="image">
-			<img src="" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="" />
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>evenementiel/" id="acc4">
@@ -84,7 +84,7 @@ $mbesi = 'accueil';
 			<p>Evénementiel</p>
 		</div>
 		<div class="image">
-			<img src="" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc4.jpg" alt="" />
 		</div>
 	</a>
 </div>
