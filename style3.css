@@ -559,33 +559,33 @@ input#slide3 {
 	border-radius:5px;
 }
 #acc1 {
-	animation:acc1 1s ease-in;
+	animation:acc1 1s ease;
 	-webkit-transform:translateX(0);
 	z-index:1;
 	/*margin:40px 0 0 0;*/
 }
 #acc2 {
-	animation:acc2 1s ease-in;
+	animation:acc2 1s ease;
 	-webkit-transform:translateX(0);
 	z-index:2;
 	/*margin:200px 0 0 220px;*/
 }
 #acc3 {
-	animation:acc3 1s ease-in;
+	animation:acc3 1s ease;
 	-webkit-transform:translateX(0);
 	z-index:3;
 	/*margin:40px 0 0 470px;*/
 }
 #acc4 {
-	animation:acc4 1s ease-in;
+	animation:acc4 1s ease;
 	-webkit-transform:translateX(0);
 	z-index:4;
 	/*margin:200px 0 0 685px;*/
 }
-@keyframes acc1{0%{opacity:0;transform:scale(.75);}20%{transform:scale(1.05);}25%{transform:scale(1);opacity:.9;}}
-@keyframes acc2{0%,25%{opacity:0;transform:scale(.75);}45%{transform:scale(1.05);}50%{transform:scale(1);opacity:.9;}}
-@keyframes acc3{0%,50%{opacity:0;transform:scale(.75);}70%{transform:scale(1.05);}75%{transform:scale(1);opacity:.9;}}
-@keyframes acc4{0%,75%{opacity:0;transform:scale(.75);}95%{transform:scale(1.05);}100%{transform:scale(1);opacity:.9;}}
+@keyframes acc1{0%{opacity:0;transform:translateX(-25px);}20%{transform:translateX(5px);}25%{transform:translateX(0);opacity:.9;}}
+@keyframes acc2{0%,25%{opacity:0;transform:translateX(-50px);}45%{transform:translateX(5px);}50%{transform:translateX(0);opacity:.9;}}
+@keyframes acc3{0%,50%{opacity:0;transform:translateX(-75px);}70%{transform:translateX(5px);}75%{transform:translateX(0);opacity:.9;}}
+@keyframes acc4{0%,75%{opacity:0;transform:translateX(-100px);}95%{transform:translateX(5px);}100%{transform:translateX(0);opacity:.9;}}
 
 #acc1:hover .accimg,
 #acc2:hover .accimg,
