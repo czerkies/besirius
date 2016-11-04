@@ -71,7 +71,8 @@ if (isset($_POST['sendMail'])) {
         $messageVisiteur = htmlspecialchars(stripslashes($_POST['message']));
 
         // Adresse de réponse
-        $mail_to = "s.ienny@be-sirius.fr,d.genete@be-sirius.fr,{$emailVisiteur}";
+        //$mail_to = "s.ienny@be-sirius.fr,d.genete@be-sirius.fr,{$emailVisiteur}";
+				$mail_to = $emailConfig . ', ' . $emailVisiteur;
 
         // Nom de l'expéditeur
         $from = "Be-Sirius";
@@ -225,7 +226,7 @@ if (isset($_POST['sendMail'])) {
                       SAS au capital social de 8 000 € &#149; 537 697 482 000 35 &#149; 14 ter rue des Granges 28130 Hanches &#149; 01 75 92 09 43 &#149; contact@be-sirius.fr <br />
                       <br />
                       <br />
-                      &copy; 2014 Be-sirius. Tous droits r&eacute;serv&eacute;s.</span><br />
+                      &copy; 2016 Be-sirius. Tous droits r&eacute;serv&eacute;s.</span><br />
                     </p>
                   </td>
                 </tr>

@@ -538,8 +538,8 @@ input#slide3 {
 #acc2,
 #acc3,
 #acc4 {
-	transition: all .2s ease;
-	/*float:left;
+	/*transition: all .2s ease;
+	float:left;
 	position:absolute;
 	width:275px;*/
 }
