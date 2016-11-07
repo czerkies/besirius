@@ -235,9 +235,10 @@ img.size_logo {
 #menu {
 	display: flex;
 	justify-content: center;
-	margin: 8px 0;
-	padding: 0;
+	margin: 0;
+	padding: 8px 0;
 	width: 100%;
+	background: rgba(190, 190, 190, .1);
 	font-family: 'gothic', arial;
 	list-style:none;
 	/*color:#a993b6;*/
