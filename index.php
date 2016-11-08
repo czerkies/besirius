@@ -57,7 +57,7 @@ $mbesi = 'accueil';
 <div class="home-flex">
 	<a href="<?= RACINE; ?>stands-sur-mesure/" id="acc1">
 		<div class="title">
-			<p>Stand clé en main</p>
+			<p>Stands sur mesure</p>
 		</div>
 		<div class="image">
 			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt=""/>
@@ -65,7 +65,7 @@ $mbesi = 'accueil';
 	</a>
 	<a href="<?= RACINE; ?>stands-en-location/" id="acc2">
 		<div class="title">
-			<p>Installation générale</p>
+			<p>Stands en location</p>
 		</div>
 		<div class="image">
 			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="" />
@@ -73,7 +73,7 @@ $mbesi = 'accueil';
 	</a>
 	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
 		<div class="title">
-			<p> Agencement</p>
+			<p>Installation Générale</p>
 		</div>
 		<div class="image">
 			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="" />

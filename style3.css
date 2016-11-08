@@ -238,9 +238,9 @@ img.size_logo {
 	margin: 0;
 	padding: 8px 0;
 	width: 100%;
-	background: rgba(190, 190, 190, .1);
 	font-family: 'gothic', arial;
 	list-style:none;
+	border-bottom: 1px solid rgba(190,190,190,.5);
 	/*color:#a993b6;*/
 	font-size: 1.1em;
 	/*letter-spacing:1px;*/
