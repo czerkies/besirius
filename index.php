@@ -60,7 +60,7 @@ $mbesi = 'accueil';
 			<p>Stands sur mesure</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt=""/>
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt="Stand sur mesure Stradal be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>stands-en-location/" id="acc2">
@@ -68,7 +68,7 @@ $mbesi = 'accueil';
 			<p>Stands en location</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand en location carrement-fleur be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
@@ -76,7 +76,7 @@ $mbesi = 'accueil';
 			<p>Installation Générale</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="Installation générale installation stand be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>evenementiel/" id="acc4">
@@ -84,7 +84,7 @@ $mbesi = 'accueil';
 			<p>Evénementiel</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc4.jpg" alt="" />
+			<img src="<?= RACINE; ?>img/pan_acc/img_bloc4.jpg" alt="Évènement fmii business immo espace conference be-sirius">
 		</div>
 	</a>
 </div>
