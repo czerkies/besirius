@@ -522,28 +522,117 @@ input#slide3 {
 }
 .home-flex a .image {
 	z-index: 4;
-	display: flex;
-	justify-content: center;
+	/*display: flex;
+	justify-content: center;*/
 	border-radius: 4px;
 	width: 200px;
 	height: 100%;
 	overflow: hidden;
+	position: relative;
 }
 .home-flex a img {
+	position: absolute;
+	top: 0;
+	left: -5px;
 	z-index: -5;
 	width: auto;
 	height: 100%;
 }
 
-#acc1,
+/* Defilement acc1 */
+#acc1 .image img:nth-child(1) {
+	animation: fond_1_1 20s ease infinite}
+#acc1 .image img:nth-child(2) {
+	animation: fond_1_2 20s ease infinite}
+#acc1 .image img:nth-child(3) {
+	animation: fond_1_3 20s ease infinite}
+
+@keyframes fond_1_1 {
+	0%, 22%, 90%, 100% {opacity: 1}
+	26%, 86% {opacity: 0}
+}
+@keyframes fond_1_2 {
+	0%, 22%, 56%, 100% {opacity: 0}
+	26%, 52% {opacity: 1}
+}
+@keyframes fond_1_3 {
+	0%, 52%, 90%, 100% {opacity: 0}
+	56%, 86% {opacity: 1}
+}
+
+/* Defilement acc2 */
+#acc2 .image img:nth-child(1) {
+	animation: fond_2_1 20s ease infinite}
+#acc2 .image img:nth-child(2) {
+	animation: fond_2_2 20s ease infinite}
+#acc2 .image img:nth-child(3) {
+	animation: fond_2_3 20s ease infinite}
+
+@keyframes fond_2_1 {
+	0%, 26%, 94%, 100% {opacity: 1}
+	30%, 90% {opacity: 0}
+}
+@keyframes fond_2_2 {
+	0%, 26%, 60%, 100% {opacity: 0}
+	30%, 56% {opacity: 1}
+}
+@keyframes fond_2_3 {
+	0%, 56%, 94%, 100% {opacity: 0}
+	60%, 90% {opacity: 1}
+}
+
+/* Defilement acc3 */
+#acc3 .image img:nth-child(1) {
+	animation: fond_3_1 20s ease infinite}
+#acc3 .image img:nth-child(2) {
+	animation: fond_3_2 20s ease infinite}
+#acc3 .image img:nth-child(3) {
+	animation: fond_3_3 20s ease infinite}
+
+@keyframes fond_3_1 {
+	0%, 26%, 94%, 100% {opacity: 1}
+	30%, 90% {opacity: 0}
+}
+@keyframes fond_3_2 {
+	0%, 26%, 60%, 100% {opacity: 0}
+	30%, 56% {opacity: 1}
+}
+@keyframes fond_3_3 {
+	0%, 56%, 94%, 100% {opacity: 0}
+	60%, 90% {opacity: 1}
+}
+
+/* Defilement acc4 */
+#acc4 .image img:nth-child(1) {
+	animation: fond_4_1 20s ease infinite}
+#acc4 .image img:nth-child(2) {
+	animation: fond_4_2 20s ease infinite}
+#acc4 .image img:nth-child(3) {
+	animation: fond_4_3 20s ease infinite}
+
+@keyframes fond_4_1 {
+	0%, 26%, 94%, 100% {opacity: 1}
+	30%, 90% {opacity: 0}
+}
+@keyframes fond_4_2 {
+	0%, 26%, 60%, 100% {opacity: 0}
+	30%, 56% {opacity: 1}
+}
+@keyframes fond_4_3 {
+	0%, 56%, 94%, 100% {opacity: 0}
+	60%, 90% {opacity: 1}
+}
+
+
+/*#acc1,
 #acc2,
 #acc3,
 #acc4 {
-	/*transition: all .2s ease;
+	transition: all .2s ease;
 	float:left;
 	position:absolute;
-	width:275px;*/
-}
+	width:275px;
+}*/
 .accimg {
 	transition:all .2s ease;
 	width:275px;
@@ -626,7 +715,7 @@ a .acc4titre {
 }
 .acc4titre {
 	margin:10px 0 10px 90px;
-}*/
+}
 .def_droite_gauche,
 .def_gauche_droite {
 	width:825px;
@@ -672,7 +761,7 @@ a .acc4titre {
 }
 @-webkit-keyframes def_bas_haut{0%,35%,100%{-webkit-transform:translateY(-450px);}40%,75%{-webkit-transform:translateY(-225px);}80%,96%{-webkit-transform:translateY(0);}}
 @-moz-keyframes def_bas_haut{0%,35%,100%{-moz-transform:translateY(-450px);}40%,75%{-moz-transform:translateY(-225px);}80%,96%{-moz-transform:translateY(0);}}
-@-ms-keyframes def_bas_haut{0%,35%,100%{-ms-transform:translateY(-450px);}40%,75%{-ms-transform:translateY(-225px);}80%,96%{-ms-transform:translateY(0);}}
+@-ms-keyframes def_bas_haut{0%,35%,100%{-ms-transform:translateY(-450px);}40%,75%{-ms-transform:translateY(-225px);}80%,96%{-ms-transform:translateY(0);}}*/
 
 /* ---- Stands ---- */
 #col1,
