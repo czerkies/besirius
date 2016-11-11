@@ -569,16 +569,16 @@ input#slide3 {
 	animation: fond_2_3 20s ease infinite}
 
 @keyframes fond_2_1 {
-	0%, 26%, 94%, 100% {opacity: 1}
-	30%, 90% {opacity: 0}
+	0%, 23%, 91%, 100% {opacity: 1}
+	27%, 87% {opacity: 0}
 }
 @keyframes fond_2_2 {
-	0%, 26%, 60%, 100% {opacity: 0}
-	30%, 56% {opacity: 1}
+	0%, 23%, 57%, 100% {opacity: 0}
+	27%, 53% {opacity: 1}
 }
 @keyframes fond_2_3 {
-	0%, 56%, 94%, 100% {opacity: 0}
-	60%, 90% {opacity: 1}
+	0%, 53%, 91%, 100% {opacity: 0}
+	57%, 87% {opacity: 1}
 }
 
 /* Defilement acc3 */
@@ -590,16 +590,16 @@ input#slide3 {
 	animation: fond_3_3 20s ease infinite}
 
 @keyframes fond_3_1 {
-	0%, 26%, 94%, 100% {opacity: 1}
-	30%, 90% {opacity: 0}
+	0%, 24%, 92%, 100% {opacity: 1}
+	28%, 88% {opacity: 0}
 }
 @keyframes fond_3_2 {
-	0%, 26%, 60%, 100% {opacity: 0}
-	30%, 56% {opacity: 1}
+	0%, 24%, 58%, 100% {opacity: 0}
+	28%, 54% {opacity: 1}
 }
 @keyframes fond_3_3 {
-	0%, 56%, 94%, 100% {opacity: 0}
-	60%, 90% {opacity: 1}
+	0%, 54%, 92%, 100% {opacity: 0}
+	58%, 88% {opacity: 1}
 }
 
 /* Defilement acc4 */
@@ -611,16 +611,16 @@ input#slide3 {
 	animation: fond_4_3 20s ease infinite}
 
 @keyframes fond_4_1 {
-	0%, 26%, 94%, 100% {opacity: 1}
-	30%, 90% {opacity: 0}
+	0%, 25%, 93%, 100% {opacity: 1}
+	29%, 89% {opacity: 0}
 }
 @keyframes fond_4_2 {
-	0%, 26%, 60%, 100% {opacity: 0}
-	30%, 56% {opacity: 1}
+	0%, 25%, 59%, 100% {opacity: 0}
+	29%, 54% {opacity: 1}
 }
 @keyframes fond_4_3 {
-	0%, 56%, 94%, 100% {opacity: 0}
-	60%, 90% {opacity: 1}
+	0%, 55%, 93%, 100% {opacity: 0}
+	59%, 89% {opacity: 1}
 }
 
 
@@ -1541,6 +1541,7 @@ input[type="reset"] {
 	min-width:99%;
 	font-size:1em;
 	font-family:'gothic', arial;
+	resize: none;
 }
 #contact2 p {
 	margin:0;
