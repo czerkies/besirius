@@ -60,9 +60,9 @@ $mbesi = 'accueil';
 			<p>Stands sur mesure</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt="Stand sur mesure Stradal be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand sur mesure Stradal be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="Stand sur mesure Stradal be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/1_1_STRADAL_-_POLLUTEC_2014.jpg" alt="Stand sur mesure Stradal be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/1_2_KFC_-_FRANCHISE_EXPO.jpg" alt="Stand sur mesure KFC be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/1_3_JORDHAL_HBAU_-_BATIMAT_2013.jpg" alt="Stand sur mesure Jordahl h-bau be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>stands-en-location/" id="acc2">
@@ -70,9 +70,9 @@ $mbesi = 'accueil';
 			<p>Stands en location</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand en location carrement-fleur be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="Installation générale installation stand be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand sur mesure Stradal be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/2_1_CARREMENT_FLEURS_-_FRANCHISE_2015.jpg" alt="Stand en location carrement-fleur be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/2_2_RAYCREATIS_-_BATIMAT_2013.jpg" alt="Stand en location archit be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/2_3_PROXIMIS_-_E-COMMERCE_2014.jpg" alt="Stand en location proximis be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>installation-generale/" id="acc3">
@@ -80,9 +80,9 @@ $mbesi = 'accueil';
 			<p>Installation Générale</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="Installation générale installation stand be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand sur mesure Stradal be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc1.jpg" alt="Stand sur mesure Stradal be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/3_1_INSTALLATION.jpg" alt="Installation générale installation stand be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/img_bloc2.jpg" alt="Installation générale vignette accueil camy salon orientation 2014 be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/3_3_SALON_DE_L_ORIENTATION_DE_MANTES_LA_JOLIE_2014.jpg" alt="Installation générale camy plan def vignette accueil be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>evenementiel/" id="acc4">
@@ -90,9 +90,9 @@ $mbesi = 'accueil';
 			<p>Evénementiel</p>
 		</div>
 		<div class="image">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc4.jpg" alt="Évènement fmii business immo espace conference be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc3.jpg" alt="Installation générale installation stand be-sirius">
-			<img src="<?= RACINE; ?>img/pan_acc/img_bloc2.jpg" alt="Stand sur mesure Stradal be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/4_1_fmii_business_immo_espace_conference_be-sirius.jpg" alt="Évènement fmii business immo espace conference be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/4_2_evenementiel_speed-coaching_be-sirius.jpg" alt="Événementiel speed-coaching be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/4_3_fmii_business_immo_espace_conference_be-sirius.jpg" alt="Événementiel fmii business immo espace conference be-sirius">
 		</div>
 	</a>
 </div>
