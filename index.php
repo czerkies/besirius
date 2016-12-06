@@ -81,8 +81,8 @@ $mbesi = 'accueil';
 		</div>
 		<div class="image">
 			<img src="<?= RACINE; ?>img/captacc/3_1_INSTALLATION.jpg" alt="Installation générale installation stand be-sirius">
-			<img src="<?= RACINE; ?>img/captacc/img_bloc2.jpg" alt="Installation générale vignette accueil camy salon orientation 2014 be-sirius">
-			<img src="<?= RACINE; ?>img/captacc/3_3_SALON_DE_L_ORIENTATION_DE_MANTES_LA_JOLIE_2014.jpg" alt="Installation générale camy plan def vignette accueil be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/3_2_SALON_DE_L_ORIENTATION_DE_MANTES_LA_JOLIE_2014.jpg" alt="Installation générale mantes la jolie salon de l'orientation be-sirius">
+			<img src="<?= RACINE; ?>img/captacc/3_3_FMII_BUSINESS_IMMO_-_REALISATION_SALON.jpg" alt="Installation générale vignette accueil camy salon orientation 2014 be-sirius">
 		</div>
 	</a>
 	<a href="<?= RACINE; ?>evenementiel/" id="acc4">

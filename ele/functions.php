@@ -12,7 +12,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 	define('TG_PASSAGE_CYBERCITE', FALSE);
 
 	//Connexion PDO
-  if($_SERVER['SERVER_NAME'] == 'localhost') {
+  /*if($_SERVER['SERVER_NAME'] == 'localhost') {
 
     //PDO LOCAL
 
@@ -20,7 +20,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 
     // PDO Serveur dev
 
-  }
+  }*/
 
 } else {
 
@@ -245,5 +245,3 @@ if (isset($_POST['sendMail'])) {
   }
 
 }
-
-?>
