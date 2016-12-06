@@ -34,6 +34,12 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 	define('TG_PASSAGE_CYBERCITE', TRUE);
 
 	// Connexion PDO
+	try {
+		$bdd = new PDO('xxx', 'xxx', 'xxx', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	} catch (Exception $e) {
+		die('Erreur : ' . $e->getMessage());
+	}
 
 }
 

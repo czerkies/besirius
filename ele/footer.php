@@ -10,7 +10,7 @@ SAS au capital social de 8 000 €
 &#8226; 537 679 482 00043
 &#8226; <a target="_blank" href="https://www.google.fr/maps/place/36+Rue+du+Faubourg+Valmorin,+28210+Nogent-le-Roi/@48.6511556,1.5253007,440m/data=!3m1!1e3!4m2!3m1!1s0x47e40314802bed59:0x1deca07c1ed51afc!6m1!1e1">36 rue du Faubourg Valmorin 28 210 NOGENT LE ROI</a>
 &#8226; 01 75 92 09 43
-&#8226; <a target="_blank" href="mailto:contact@be-sirius.fr">contact@be-sirius.fr</a> <span> <a target="_blank" href="https://plus.google.com/u/0/114330815862818495709/posts" rel="publisher"><img src="<?= RACINE; ?>/gp.png" class="sogp"></a> <a target="_blank" href="https://www.facebook.com/BeSirius"><img src="<?= RACINE; ?>/fb.png" class="sofb"></a> <a target="_blank" href="http://www.standiste.blogspot.fr"><img src="<?= RACINE; ?>/blog.png" class="soblog"></a></span>
+&#8226; <a target="_blank" href="mailto:contact@be-sirius.fr">contact@be-sirius.fr</a> <span> <a target="_blank" href="https://plus.google.com/u/0/114330815862818495709/posts" rel="publisher"><img src="<?= RACINE; ?>gp.png" class="sogp"></a> <a target="_blank" href="https://www.facebook.com/BeSirius"><img src="<?= RACINE; ?>fb.png" class="sofb"></a> <a target="_blank" href="http://www.standiste.blogspot.fr"><img src="<?= RACINE; ?>blog.png" class="soblog"></a></span>
 <!-- À propos du site : be-sirius Version 2.3 - Réalisé et développé par Roman Czerkies : http://romanczerkies.fr  -->
 </footer>
 </div>
