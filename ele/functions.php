@@ -1,6 +1,8 @@
 <?php
 
-if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanczerkies.fr') {
+$serverName = $_SERVER['SERVER_NAME'];
+
+if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 
 	// Racine site
 	define('RACINE', '/besirius/');
@@ -12,7 +14,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 	define('TG_PASSAGE_CYBERCITE', FALSE);
 
 	//Connexion PDO
-  if($_SERVER['SERVER_NAME'] == 'localhost') {
+  if($serverName == 'localhost') {
 
     //PDO LOCAL
 
@@ -41,6 +43,8 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'romanc
 // Gestion contact
 if (isset($_POST['sendMail'])) {
 
+	define('MAIL_CONTACT', 'contact@be-sirius.fr');
+
   $msg = '';
 
   if (isset($_POST['nom']) && isset($_POST['prenom'])
@@ -65,23 +69,15 @@ if (isset($_POST['sendMail'])) {
 	      $telephoneVisiteur = $_POST['telephone'];
 	      $messageVisiteur = htmlspecialchars(stripslashes($_POST['message']));
 
-	      // Adresse de réponse
-	      //$mail_to = "s.ienny@be-sirius.fr,d.genete@be-sirius.fr,{$emailVisiteur}";
-				$mail_to = $emailConfig . ', ' . $emailVisiteur;
-
-	      // Nom de l'expéditeur
-	      $from = "Be-Sirius";
-
 	      // L'objet
 	      $sujet = "Demande de contact Be-Sirius";
 
 	      // Header du mail
-	      $headers = "Content-Type: text/html; charset=\"UTF-8\";\r\n";
-	      $headers .= "From: Be-Sirius \r\n";
+				$headers .= 'Content-Type: text/html; charset=\"UTF-8\";' . "\r\n";
+				$headers .= 'From: Be-Sirius <' . MAIL_CONTACT . '>' . "\r\n";
+				$headers .= 'Bcc: ' . MAIL_CONTACT . ', '. $emailConfig . "\r\n";
 
 	      // Message au format HTML
-
-
 	      $message = "<html><head>
 	      <!--
 	      img{display: block; margin:0px; padding:0px;}#OOOOOO
@@ -218,7 +214,7 @@ if (isset($_POST['sendMail'])) {
 	                <tr>
 	                  <td width=\"300\" height=\"78\" colspan=\"5\" style=\"font-family:Arial, Helvetica, sans-serif; font-size:9px; color: #000;\" align=\"center\">
 	                    <br />
-	                    SAS au capital social de 8 000 € &#149; 537 697 482 000 35 &#149; 14 ter rue des Granges 28130 Hanches &#149; 01 75 92 09 43 &#149; contact@be-sirius.fr <br />
+	                    SAS au capital social de 8 000 € &#149; 537 697 482 000 35 &#149; 14 ter rue des Granges 28130 Hanches &#149; 01 75 92 09 43 &#149; " . MAIL_CONTACT . " <br />
 	                    <br />
 	                    <br />
 	                    &copy; 2016 Be-sirius. Tous droits r&eacute;serv&eacute;s.</span><br />
@@ -232,7 +228,7 @@ if (isset($_POST['sendMail'])) {
 	    </body>
 	    </html>";
 
-	    mail($mail_to, $sujet, $message, $headers);
+	    mail($emailVisiteur, $sujet, $message, $headers);
 
 	    $msg .= "Votre message a bien été envoyé.";
 
