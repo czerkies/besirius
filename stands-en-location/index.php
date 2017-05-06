@@ -37,12 +37,12 @@ $mbesi = 'stands-en-location';
             <div class="img2" title="Fermer">
               <label for="img1" title="Précédent">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img3" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/EUROGERM - JTIC 2013.jpg" alt="EUROGERM - JTIC 2013">
@@ -51,12 +51,12 @@ $mbesi = 'stands-en-location';
             <div class="img3" title="Fermer">
               <label for="img2" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img4" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/FUTURAMEDIA - PHARMAGORA 2014.jpg" alt="FUTURAMEDIA - PHARMAGORA 2014">
@@ -65,12 +65,12 @@ $mbesi = 'stands-en-location';
             <div class="img4" title="Fermer">
               <label for="img3" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img5" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/GO2CAM - INDUSTRIE 2014.jpg" alt="GO2CAM - INDUSTRIE 2014">
@@ -79,12 +79,12 @@ $mbesi = 'stands-en-location';
             <div class="img5" title="Fermer">
               <label for="img4" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img6" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/ITEKPHARMA - PHARMAGORA 2014.jpg" alt="ITEKPHARMA - PHARMAGORA 2014">
@@ -93,12 +93,12 @@ $mbesi = 'stands-en-location';
             <div class="img6" title="Fermer">
               <label for="img5" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img7" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/PROXIMIS - E-COMMERCE 2014.jpg" alt="PROXIMIS - E-COMMERCE 2014">
@@ -107,12 +107,12 @@ $mbesi = 'stands-en-location';
             <div class="img7" title="Fermer">
               <label for="img6" title="Fermer">
                 <div class="fleche_g">
-        		      <img src="/references-realisations/previous.png">
+        		      <img src="../references-realisations/previous.png">
         	      </div>
               </label>
               <label for="img1" title="Suivant">
                 <div class="fleche_d">
-      		          <img src="/references-realisations/next.png">
+      		          <img src="../references-realisations/next.png">
       	        </div>
               </label>
               <img src="img/RAYCREATIS - BATIMAT 2013.jpg" alt="RAYCREATIS - BATIMAT 2013">

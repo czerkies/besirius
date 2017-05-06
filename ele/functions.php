@@ -1,7 +1,7 @@
 <?php
 
 // Import des parametres
-include_once '../conf/params.php';
+include_once 'conf/params.php';
 
 $serverName = $_SERVER['SERVER_NAME'];
 
@@ -61,7 +61,7 @@ if (isset($_POST['sendMail'])) {
 
 		if(empty($_POST['message'])) $msg .= "<label for='message'>Veuillez inscrire un <b>Message</b>.</label><br>";
 
-    if(empty($msg)){
+    if (empty($msg)) {
 
 	      $nomVisiteur = $_POST['nom'];
 	      $prenomVisiteur = $_POST['prenom'];

@@ -1,5 +1,5 @@
 #params
-conf/params.php
+ele/conf/params.php
 
 #npm
 node_modules/
