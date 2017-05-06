@@ -24,7 +24,7 @@ $mbesi = 'contact';
     <input type="tel" name="telephone" id="telephone" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone']; ?>" title="Téléphone" placeholder="Téléphone"><br>
     <?php if(isset($msg)) echo $msg; ?>
     <!-- Input si non vide = rbt -->
-    <input class="rbt" type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">
+    <input type="text" name="rbt" value="<?php if(isset($_POST['rbt'])) echo $_POST['rbt']; ?>">
   </div>
 </div>
 <div id="contact2">
