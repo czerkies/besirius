@@ -14,7 +14,7 @@ if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 	define('TG_PASSAGE_CYBERCITE', FALSE);
 
 	//Connexion PDO
-  if($serverName == 'localhost') {
+  /*if($serverName == 'localhost') {
 
     //PDO LOCAL
 
@@ -22,7 +22,7 @@ if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 
     // PDO Serveur dev
 
-  }
+  }*/
 
 } else {
 
@@ -36,6 +36,12 @@ if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 	define('TG_PASSAGE_CYBERCITE', TRUE);
 
 	// Connexion PDO
+	try {
+		$bdd = new PDO('xxx', 'xxx', 'xxx', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	} catch (Exception $e) {
+		die('Erreur : ' . $e->getMessage());
+	}
 
 }
 
@@ -241,5 +247,3 @@ if (isset($_POST['sendMail'])) {
   }
 
 }
-
-?>
