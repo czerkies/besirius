@@ -1,14 +1,14 @@
 <?php
 
+// Import des parametres
+include_once '../conf/params.php';
+
 $serverName = $_SERVER['SERVER_NAME'];
 
 if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 
 	// Racine site
 	define('RACINE', '/besirius/');
-
-	// Email prin
-	$emailConfig = 'roman.czerkies@gmail.com';
 
 	// tracking code Cybercite
 	define('TG_PASSAGE_CYBERCITE', FALSE);
@@ -29,15 +29,12 @@ if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 	// Racine site
 	define('RACINE', '/');
 
-	// Email Prin
-	$emailConfig = 's.ienny@be-sirius.fr, d.genete@be-sirius.fr';
-
 	// tracking code Cybercite
 	define('TG_PASSAGE_CYBERCITE', TRUE);
 
 	// Connexion PDO
 	try {
-		$bdd = new PDO('xxx', 'xxx', 'xxx', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+		$bdd = new PDO('mysql:host=' . HOST . ';dbname=' . DBNAME, USER, MDP, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	} catch (Exception $e) {
 		die('Erreur : ' . $e->getMessage());
@@ -48,8 +45,6 @@ if ($serverName == 'localhost' || $serverName == 'romanczerkies.fr') {
 
 // Gestion contact
 if (isset($_POST['sendMail'])) {
-
-	define('MAIL_CONTACT', 'contact@be-sirius.fr');
 
   $msg = '';
 
@@ -79,9 +74,9 @@ if (isset($_POST['sendMail'])) {
 	      $sujet = "Demande de contact Be-Sirius";
 
 	      // Header du mail
-				$headers .= 'Content-Type: text/html; charset=\"UTF-8\";' . "\r\n";
+				$headers = 'Content-Type: text/html; charset=\"UTF-8\";' . "\r\n";
 				$headers .= 'From: Be-Sirius <' . MAIL_CONTACT . '>' . "\r\n";
-				$headers .= 'Bcc: ' . MAIL_CONTACT . ', '. $emailConfig . "\r\n";
+				$headers .= 'Bcc: ' . MAIL_CONTACT . ', ' . LIST_MAIL . "\r\n";
 
 	      // Message au format HTML
 	      $message = "<html><head>
