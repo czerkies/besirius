@@ -1,7 +1,8 @@
 <?php
 
 // Import des parametres
-include_once 'conf/params.php';
+if (include_once 'conf/params.php');
+else echo '! params.php manquant !';
 
 $serverName = $_SERVER['SERVER_NAME'];
 
